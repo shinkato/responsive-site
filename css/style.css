@@ -109,17 +109,21 @@ section {
   }
 
 #works {
-  padding-bottom: 0;
   background-color:#a6f4f8;
   padding-bottom:50px;
-  text-align: center;
 }
   #works h2 {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    }
   #works .button-design{
-    font-size: 1.4em;
+    margin: auto;
+    -webkit-justify-content: center;
+    justify-content: center;text-align: center;
+    display: flex;
+    width:150px;
+    font-size: 100%;
     font-weight: bold;
-    padding: 10px 30px;
+    padding: 10px 10px;
     color: #fff;
     border-style: none;
     box-shadow: 2px 2px 3px 1px #666;
