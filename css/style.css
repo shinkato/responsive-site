@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Abel);
 /* Base
 ------------------------------------------------------------*/
@@ -112,10 +112,11 @@ section {
   padding-bottom: 0;
   background-color:#a6f4f8;
   padding-bottom:50px;
+  text-align: center;
 }
   #works h2 {
     margin-bottom: 50px; }
-  #works .button{
+  #works .button-design{
     font-size: 1.4em;
     font-weight: bold;
     padding: 10px 30px;
@@ -130,12 +131,9 @@ section {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    width:50%;
-    margin:auto;
-    text-align:center;
   }
 
-@media (min-width: 728px) {
+@media (min-width: 768px) {
     /* Base
   ------------------------------------------------------------*/
     a:hover {
